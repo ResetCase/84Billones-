@@ -1,0 +1,44 @@
+.main {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.entrada{
+    background: rgba(142, 148, 165, 0.29);
+    width: auto;
+    height: 120px;
+    margin: 6px;
+    
+}
+.entrada:hover{
+    background: #b2b0b9;
+}
+
+
+
+.prueba1 {
+    background-color: antiquewhite;
+    width: 69px;
+    height: 30px;
+    padding: 3px;
+    margin: 6px;
+    color: #720606;
+    text-align: center;
+    
+    box-shadow: 6px solid #483c3c;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    
+    
+    
+}
+.prueba1:hover {
+    cursor: pointer;
+    color: azure;
+    background-color: #483c3c;
+}
